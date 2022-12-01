@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and  (max-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #61764B;
+        height: 130px;
+    }
+
+    header h1 {
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: normal;
+        font-size: 3rem;
+        color: #AA8B56;
+        -webkit-text-stroke: 1.5px #000;
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #AA8B56;
+    }
+
+    .btndropdown {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    .menudropdown-conteudo {
+        display: none;
+        background-color: #AA8B56;
+        min-width: 600px;
+        text-align: center;
+        
+    }
+   
+    .menudropdown-conteudo  a {
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+        height: 50px;
+    }
+
+    .menudropdown-conteudo li {
+        margin-top: 10px;
+        padding: 10px;
+        border: 0.5px solid black;
+
+    }
+   
+    .menudropdown-conteudo li:hover {
+        background-color: #F0EBCE;
+    }
+
+    .mostrarMenuDropdown {
+        display: block;
+    
+    }
+
+
+
+    main {
+        height: 100vh;
+    }
+
+    .section-01-home {
+        display: flex;
+        justify-content: space-around  ;
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+        
+    }
+
+    .section-01-home, h3 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+    }
+
+    .section-01-home, img {
+        border-radius: 5px;
+        
+    }
+
+    footer {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #61764B;
+        height: 80px;
+    }
+
+    footer a {
+        color: #000;
+    }
+
+}
+/*---------------------------------------------------------------------*/
+
+@media only screen and (min-width:600px) {
+
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #61764B;
+        height: 130px;
+    }
+
+    header h1 {
+        font-family: 'Dela Gothic One', cursive;
+        font-weight: normal;
+        font-size: 3rem;
+        color: #AA8B56;
+        -webkit-text-stroke: 1.5px #000;
+        
+    }
+
+    nav {
+        background-color: #AA8B56;
+        height: 40px;
+        
+    }
+
+    button, img {
+        opacity: 0;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    .menudropdown-conteudo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -28px;
+        
+    }
+
+    a, ul {
+        list-style-type: none;
+        text-decoration: none;
+        color: #000;
+    }
+
+    li {
+        display: inline;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    li:hover {
+        text-decoration-line: underline;
+    }
+
+    footer {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #61764B;
+        height: 80px;
+    }
+
+    footer a {
+        color: #000;
+    }
+
+
+}
+/*---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+
+    header {
+        background-color: #61764B;
+        height: 130px;
+    }
+
+    li {
+        padding: 8px;
+    }
+
+
+}
+/*---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+
+
+    header {
+        background-color: #61764B;
+        height: 130px;
+    }
+
+    li {
+        padding: 12px;
+    }
+
+}
+
+/*---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+
+    header {
+        background-color: #61764B;
+        height: 130px;
+    }
+
+    li {
+        padding: 15px;
+    }
+
+
+}
